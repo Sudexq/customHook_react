@@ -1,10 +1,12 @@
 import './App.css';
-import TitleOne from './TitleOne';
+import Counter from './Counter';
+// import TitleOne from './TitleOne';
 
 function App() {
   return (
     <div className='app'>
-      <TitleOne/>
+      {/* <TitleOne/> */}
+      <Counter/>
     </div>
   );
 }
